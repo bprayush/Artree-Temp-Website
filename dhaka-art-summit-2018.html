@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Artree Nepal | Dhaka Art Summit 2018</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/artree.css"/>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/routes.js"></script>
+    </head>
+    <body>
+        <div class="body-main">
+            <!-- NAVIGATION BAR -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container mr-1">
+                    <a class="navbar-brand" id="logo-btn" href=""><img id="logo-btn" src="images/artree-logo.png"/></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                        <li class="nav-item ml-3 dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  href="">ABOUT US</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="about-btn" href="">About Artree Nepal</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="team-btn" href="">Our Team</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-3 dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="projects-btn" href="">PROJECTS</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="2018-btn" href="">2018</a>
+                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2017-btn" href="">2017</a>
+                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2016-btn" href="">2016</a>
+                                 <!-- <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2015-btn" href="">2015</a> -->
+                            </div>
+                        </li>
+                        <li class="nav-item ml-3">
+                          <a class="nav-link" id="news-btn" href="">NEWS/PUBLICATION</a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" id="contact-btn" href="">CONTACT US</a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.facebook.com/Artree-Nepal-295759690592034/"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.instagram.com/artreenepal/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCk9T65RgJZ5JNS3vs2AcOwQ"><i class="fab fa-youtube"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- NAVIGATION END -->
+
+
+
+            <div class="container project-detail">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <!-- CAROUSEL START -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item carousel-project active">
+                                    <a href="images/2018/dhaka-art-summit/1.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2018/dhaka-art-summit/1.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2018/dhaka-art-summit/2.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2018/dhaka-art-summit/2.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2018/dhaka-art-summit/3.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2018/dhaka-art-summit/3.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- CAROUSEL END -->
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <span class="project-title">Dhaka Art Summit 2018</span><br />
+                        <span class="project-meta"><i class="far fa-calendar-alt">&nbsp;</i>February 2 - 10, 2018</span>
+                        <span class="project-meta"><i class="far fa-compass">&nbsp;</i>Shilpakala Academy, Dhaka, Bangladesh</span>
+                        <hr class="project-hr"/>
+                        <p class="project-body">
+                            <h6>"My Great- Great- Grandmother’s Shawl" - Sheelasha Rajbhandari</h6>
+                        </p>
+                        <p class="project-body">
+                            Global clothing and textiles exports is one of the world’s most traded manufactured products.Since late 20th century much production of textile & clothing shifted from developed to developing world specially to countries like China and India.Consequently extremely low priced,mass manufactured,counterfeited garments became more accessible and popular in many countries including Nepal.Which also rapidly destroyed local indigenous textile & clothing cultures. Textile was one of the major export of Nepal . Textile from Nepal  has been documented from as far as 3rd century BC in the book Arthashastra . Nepal have more than 125 different ethnic communities and almost all the  communities have their own clothing ,textile culture .They used to have  different  groups who would professionally  work as  weavers , tailor , dyers , spinners etc. Even till 1960s people generally would wove and sewed clothes for themselves or wore handmade clothes. From 1996 - 2006 Nepal officially  went through civil war which claimed lives of thousands. Thousands of  large and small local industries shut down, people discontinued their traditional practices , millions of people migrated to seek better works . Although throughout the history, Nepal 's one of the best exports have been  garments and textiles , general Nepali people started to loose their connection with it. Whereas usage of ethnic  garments got limited to rituals and ceremonies
+                            <br /><br />
+                            The performative art work ‘My great -great - grandmother’s shawl , is about this enormous change Nepal is going through in short period of time, which also reflects the change happening around the world  . Here Sheelasha  is portraying this change by tracing back five generation of her family’s clothing culture . For the work she took the reference of her maternal great- great- grandmother Purna Kumari Vaidhya's photograph . Purna Kumari who was  born about 127 years ago is wearing a shawl named ‘Damber Kumari’  in the photograph . Damber Kumari is three layered shawl , the middle  part is hand printed cotton, sandwiched by two layers of the fine sheer muslin. The shawl is named after the daughter of Jang Bahadur Rana ( founder of the Rana regime of Nepal) who brought India’s Banaras’s style block printing art to Kathmandu  in mid- 1800s . It is said that Kathmandu’s winter was much colder , therefore she wrapped  the block printed cotton by sheer muslin so the shawl  could be warm and beautiful pattern beneath  can also be seen. This shawl quickly gained popularity .The Ranjitkars , a  caste who is  concerned with the dyeing of clothes as well as other color related activities mostly continued this block printing technique. Later the  shawl also got the  name as ‘Nakali Dhaka’ or fake Dhaka shawl , as the prints imitated Dhaka textile’s pattern ( Dhaka is traditional handmade textile  of the indigenous Limbu people of eastern Nepal.) However nowadays almost all the Damber Kumari shawls are machine printed.
+                            <br /><br />
+                            Based on the  pattern of the shawl on the photograph, Sheelasha recreated two Damber Kumari shawls. She  took the photograph of her late grandmother Chiniya Bijukche who was 77 years old , wearing one of the  Shawl. During Chiniya’s time the tradition of clothing and textile had not changed much although some textiles from India and very few from China were available. Sheelasha collected tags of  mass produced clothes from around 100 people, most of them are counterfeited  brands from India and China, then sewed the tags  almost  entirely covered the second  shawl. She wore the  tags covered Damber Kumari Shawl and  captured it in the photograph . By 29 years old Sheelasha’ generation  the textile culture has changed dramatically . The ethnic diversity in textile has flattened  by mass produced readymades , hand mades replaced by machine mades , domestic industry are mainly export oriented, development of consumer culture contributing to higher import of clothing and textile. Increasing demand for mega branded wears  at the same time acceptance of counterfeiting  culture.
+
+                            <hr />
+                        </p>
+                        <p class="project-body">
+                            <h6>From the series “This is My Home, My Land and My Country...” - Hit Man Gurung</h6>
+                        </p>
+                        <p class="project-body">
+                            The Tharus are indigenous to Nepal. A majority of them inhabit the southern Terai plains of the country. They have been historically marginalized; most are still struggling to get equal rights as citizens of Nepal. Although this issue has been raised multiple times during major political changes and revolutions, it was not addressed seriously. The political parties, for the most part, have used the ‘Tharu agenda’ to get votes but have backed away from delivering. Hence, the Tharu people are deeply frustrated. <br /><br />
+                            On September 20, 2015, Nepal’s new constitution was promulgated. The constitution demarcated the boundaries of new provinces; but the Tharu people were not in agreement with some of these dearcations. As a result, there were massive protests in the southern plains; some groups demanded an ‘Autonomous Tharuhat Province’ with full sovereign decentralized power within Nepal in Western Madhesh. The state responded to these protests with violence. There was bloodshed and much unrest. <br /><br />
+                            These photographs and drawings address the contradiction between a politically influenced ideology and the practical lives of Tharu community. It also highlights the bitter truth of indigenous citizens who are struggling, facing complications, fear and insecurity in their own country.
+                            <hr />
+                        </p>
+                        <p class="project-body">
+                            <h6>“I want to die in my own house” - Subas Tamang</h6>
+                        </p>
+                        <p class="project-body">
+                            Tamang’s work is a continuation of a project he started during ArTree’s Open Studio. But the commissioned work is on a much larger scale - he used three stone roofs instead of one. One of the roods has a portrait of his father and mother; another one has a portrait of a working-class family from the Sylhet area who dream of building their own house one day; and the center roof contains expressions of people from Nepal and Bangladesh about their thoughts and feelings associated with the word 'ghar' (home). The issues of labour migration and the ensuing mental, physical and emotional states related to having an impermanent existence is a reality faced by millions across the South Asia region, not only in Nepal and Bangladesh.
+
+                            <hr />
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOTER START -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <p style="width:100%;font-size:0.8em;" class="text-center font-weight-light">Copyright © 2018 Artree Nepal. All Rights Reserved.</p>
+            </nav>
+            <!-- FOOTER END -->
+        </div>
+    </body>
+</html>

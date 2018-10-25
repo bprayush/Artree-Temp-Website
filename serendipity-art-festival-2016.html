@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Artree Nepal | Serendipity Art Festival</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/artree.css"/>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/routes.js"></script>
+    </head>
+    <body>
+        <div class="body-main">
+            <!-- NAVIGATION BAR -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container mr-1">
+                    <a class="navbar-brand" id="logo-btn" href=""><img id="logo-btn" src="images/artree-logo.png"/></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                        <li class="nav-item ml-3 dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  href="">ABOUT US</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="about-btn" href="">About Artree Nepal</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="team-btn" href="">Our Team</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-3 dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="projects-btn" href="">PROJECTS</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="2018-btn" href="">2018</a>
+                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2016-btn" href="">2017</a>
+                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2016-btn" href="">2016</a>
+                                 <!-- <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2015-btn" href="">2015</a> -->
+                            </div>
+                        </li>
+                        <li class="nav-item ml-3">
+                          <a class="nav-link" id="news-btn" href="">NEWS/PUBLICATION</a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" id="contact-btn" href="">CONTACT US</a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.facebook.com/Artree-Nepal-295759690592034/"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.instagram.com/artreenepal/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCk9T65RgJZ5JNS3vs2AcOwQ"><i class="fab fa-youtube"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- NAVIGATION END -->
+
+
+
+            <div class="container project-detail">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <!-- CAROUSEL START -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item carousel-project active">
+                                    <a href="images/2016/serendipity-arts-festival/1.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2016/serendipity-arts-festival/1.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2016/serendipity-arts-festival/2.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2016/serendipity-arts-festival/2.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2016/serendipity-arts-festival/3.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2016/serendipity-arts-festival/3.png">
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- CAROUSEL END -->
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <span class="project-title">Serendipity Art Festival | Young Subcontinent Project</span><br />
+                        <span class="project-meta"><i class="far fa-calendar-alt">&nbsp;</i>December 15 - 23, 2016</span>
+                        <span class="project-meta"><i class="far fa-compass">&nbsp;</i>Goa, India</span>
+                        <hr class="project-hr"/>
+                        <p class="project-body">
+                            <h6>"Invisible Connection II" - Mekh Limbu</h6>
+                        </p>
+                        <p class="project-body">
+                            (Exhibition curated by Riyas Komu)
+                            <br /><br />
+                            Invisible Connection II is a visual diary that depicts an intimate father-son relationship. Limbu’s father left his family to work for a construction company in Doha, Qatar for more than two decades. Limbu’s father used to be a primary school teacher in his rural village in Dhankuta, Nepal. “I was only eight years old then,” remembered Limbu. In this autobiographical installation, the artist used 155 small and large light boxes depicting his own personal journey from a small rural village to the capital of the country; he also juxtaposed his journey to his father’s experiences in Doha in chronological order. As part of the installation, the artist used very personal belongings such as photographs from the family album, letters and audio recordings of phone conversations and other documents like passports and visa forms. The artwork demonstrated the change in the family’s physical and social structures quite vividly. In the course of 20 years, Mekh Limbu’s father visited Nepal only four times. In the meantime, Nepal went through major socio-political changes such as a civil war, the  royal family massacre, the end of monarchy and the transition into a federal democracy. The country went through  much upheaval, severely affecting daily lives and socio-economics. This aspect is shown in the artwork through newspaper headlines, excerpts and photographs from various news outlets. This instability in the country led to more emigration for education and employment.
+                            <br /><br />
+                            “This place is like a desert with very few people. It is hard to find another Nepali here,” Limbu’s father remembered from his early years in Qatar. But Qatar also transformed dramatically during the 20-year period. The artist has captured this transformation in another adjacent wall, which is a commentary on how Qatar benefited from foreign migrant workers and rose from being a small fishing port in the middle of the desert to a massive economic hub.  This was possible because of the blood and tears (and life, in many case) of migrant labourers. “My father’s life and mine diverted in different directions because of his absence for such a long time,” says Limbu. The intimacy they once shared slowly faded away, even though they both tried to keep it alive through frequent communication by means of letters and phone calls. This is a critical problem faced by many families in Nepal, a reality for millions of Nepalis who are separated from their families because they have no choice but to work abroad. The issue of international labor migration is has directly impacted the artist’s life and is tied to the lives of  other families as well. Every day almost 1700 people leave Nepal to work abroad. Most of these labour migrants are young people.
+
+                            <hr />
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOTER START -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <p style="width:100%;font-size:0.8em;" class="text-center font-weight-light">Copyright © 2018 Artree Nepal. All Rights Reserved.</p>
+            </nav>
+            <!-- FOOTER END -->
+        </div>
+    </body>
+</html>

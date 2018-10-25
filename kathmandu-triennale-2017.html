@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Artree Nepal | Kathmandu Triennale</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/artree.css"/>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/routes.js"></script>
+    </head>
+    <body>
+        <div class="body-main">
+            <!-- NAVIGATION BAR -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container mr-1">
+                    <a class="navbar-brand" id="logo-btn" href=""><img id="logo-btn" src="images/artree-logo.png"/></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav">
+                        <li class="nav-item ml-3 dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  href="">ABOUT US</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="about-btn" href="">About Artree Nepal</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="team-btn" href="">Our Team</a>
+                            </div>
+                        </li>
+                        <li class="nav-item ml-3 dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="projects-btn" href="">PROJECTS</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="2018-btn" href="">2018</a>
+                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2017-btn" href="">2017</a>
+                                 <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2016-btn" href="">2016</a>
+                                 <!-- <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" id="2015-btn" href="">2015</a> -->
+                            </div>
+                        </li>
+                        <li class="nav-item ml-3">
+                          <a class="nav-link" id="news-btn" href="">NEWS/PUBLICATION</a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" id="contact-btn" href="">CONTACT US</a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.facebook.com/Artree-Nepal-295759690592034/"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.instagram.com/artreenepal/"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item nav-item ml-3">
+                          <a class="nav-link" target="_blank" href="https://www.youtube.com/channel/UCk9T65RgJZ5JNS3vs2AcOwQ"><i class="fab fa-youtube"></i></a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- NAVIGATION END -->
+
+
+
+            <div class="container project-detail">
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <!-- CAROUSEL START -->
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item carousel-project active">
+                                    <a href="images/2017/kathmandu-triennale/1.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/1.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2017/kathmandu-triennale/2.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/2.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2017/kathmandu-triennale/3.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/3.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2017/kathmandu-triennale/4.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/4.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2017/kathmandu-triennale/5.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/5.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2017/kathmandu-triennale/6.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/6.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2017/kathmandu-triennale/7.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/7.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2017/kathmandu-triennale/8.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/8.jpg">
+                                    </a>
+                                </div>
+                                <div class="carousel-item carousel-project">
+                                    <a href="images/2017/kathmandu-triennale/9.jpg" target="_blank">
+                                        <img class="d-block w-100 img-fluid" style="background: #fff" src="images/2017/kathmandu-triennale/9.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- CAROUSEL END -->
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-8">
+                        <span class="project-title">Kathmandu Triennale</span><br />
+                        <span class="project-meta"><i class="far fa-calendar-alt">&nbsp;</i>March 24 - April 9, 2017</span>
+                        <span class="project-meta"><i class="far fa-compass">&nbsp;</i>Kathmandu, Nepal</span>
+                        <hr class="project-hr"/>
+                        <p class="project-body">
+                            (The third edition of Kathmandu’s international arts festival was curated by Philippe Van Cauteren)
+                        </p>
+                        <p class="project-body">
+                            <h6>“I still see that old house of ours in my dreams” - Sheelasha Rajbhandari</h6>
+                        </p>
+                        <p class="project-body">
+                            ‘I still see that same old house of ours in my dreams” is  based on the narratives of the artist’s maternal grandmother, Chiniya Devi Bijukchhe. The artwork depicts a physical space and related situations linked to the space, all of which exist in the past. But at present, it only exists in the memories  and stories passed from the older generation to the younger.  Bijukchhe’s narratives revolve around a house which the artist’s great- great- grandmother Purna Kumari Bhaidya had bought in Bhotahity, a neighborhood that was a central part of Kathmandu Valley’s historic settlement. The narratives also includes several other related stories of the neighborhood, of the city, of the society and of Nepal from the bygone decades. In the narratives, Chiniya describes how drastically the society transformed within her lifetime, how close-knit communal spaces transformed to commercial centers, how businessmen from India gradually introduced Indian industrial textiles, how Tibetan refugees adjusted to the city, how peaceful historical places became noisier, overcrowded and more polluted, and how traditional houses in the neighbourhood which were made of clay and wood, with beautifully carved windows, started to get replaced by drab, tall concrete buildings. In more recent years, her own Bhotahity house was demolished to make a shopping complex.
+                            <br /><br />
+                            Just like her grandmother, Rajbhandari was also raised in the Bhotahity house.  She remembers the storage room in the house, the bhandaar. Inside the bhandaar, there were many wooden sandooks, boxes of different sizes. Inside the sandooks were objects that belonged to Rajbhandari’s  grandmother and her ancestors. But when that house was demolished, some of those sandooks were misplaced. The objects that carried her history were lost.
+                            <br /><br />
+                            “What do you miss the most?” the artist once asked her grandmother, referring to those lost objects.
+                            <br /><br />
+                            “My vadakuti,” she replied, referring to a set of miniature pots and pans gifted to her by her grandmother.
+                            <br /><br />
+                            For the artwork, the artist constructed the narrative using materials remembered and imagined. She recreated the ancient objects as accurately as she could, using the same kind of wood, as well as copper and bronze. Along with those, she also used  old, tattered photographs (most of which came from her family’s archive) and wrote related stories on top of them. Her grandmother’s actual voice, narrating her memories, softly played  in the background during the exhibition.
+                            <br /><br />
+                            Although this artwork is based on Rajbhandari’s  personal history, it reflects Nepal’s national, collective history. This project is the artist’s attempt to retell history by tracing her maternal family history, by giving credit where its due.
+
+                            <hr />
+                        </p>
+                        <p class="project-body">
+                            <h6>From the series “I Have to Feed Myself, My Family and My Country” - Hit Man Gurung</h6>
+                        </p>
+                        <p class="project-body">
+                            The two coffins that were part of the art installation once contained dead bodies of Nepali migrant workers, delivered from Saudi Arabia. Their identities were reduced to packages inside boxes, disconnecting them from their traditional religious practices, from their family members who could not even perform their last cremation rites.
+                            <br /><br />
+                            Across from the coffins, a series of drawings were displayed inside light boxes on a wall. The drawings depicted people queuing in front of the various offices of the government of Nepal’s Ministry of Labour and Employment and The Department of Foreign Employment to get a work permit. There were 15  drawings inside white frames. Each light box was programmed so that it lit up sequentially in a loop, one after another, with an interval of five seconds.
+
+                            <hr />
+                        </p>
+                        <p class="project-body">
+                            <h6>“Parallel Life of a Nepali Migrant worker and His Family” - Mekh Limbu</h6>
+                        </p>
+                        <p class="project-body">
+                            Nepal has undergone tremendous socio-political changes in the last few decades - from the democratic movement in the late eighties, the protracted civil war, the abolition of monarchy and the establishment of a republic. Simultaneously, various movements along the lines of gender and ethnicity also entered the public discourse. In parallel, global forces urged citizens to migrate locally and internationally. Then the April, 2015 earthquakes further destabilized lives, causing death and displacement.
+                            <br /><br />
+                            Numerous Nepali work in the Middle East and in Malaysia. Meanwhile, the income they send back to Nepal allow his family to migrate to bigger towns from rural outposts, emptying villages.
+                            <br /><br />
+                        	Age-old urban/rural structures are changing; traditional knowledge chains are breaking; families are getting torn apart. People are giving up on agriculture, which was a typical source of sustenance.
+                            <br /><br />
+                            The uncertain and unstable political climate doesn’t help any of this. If anything, the migrant labor industry allows government officials to remain passive instead of taking active steps to help their citizens and their country.
+
+                            <hr />
+                        </p>
+                        <p class="project-body">
+                            <h6>"The city, sustainability and progress all preach high-rises and high-tech" - Bikash Shrestha</h6>
+                        </p>
+                        <p class="project-body">
+                            My first encounter with Kathmandu’s traditional Newari architecture was the Nau-Tale Darbar, the nine-storey palace. I still remember that day vividly when I was a newcomer to the city, and  seeing the palace standing grandly in front of me as I walked down Jhochhen. For many decades, Kathmandu’s architectural aesthetics refused to have anything to do with modernism. It was concerned solely with monumental projects and giant civic structures that glorified the state and expressed the peoples’ pride with their culture and the bygone eras. This attitude, however, started undergoing changes at the dawn of the twentieth century. Global forces and industrial production became an integral part of modern societies. Towards the latter part of the century, the country itself underwent several socio-political changes. Mainly due to a ten-year civil war, local migration patterns from rural outposts to bigger towns, from towns to Kathmandu Valley, became a pattern. Kathmandu Valley could no longer retain its old charm.
+                            <br /><br />
+                            Architecture was viewed through new lenses; it served different purposes. Modern architecture reflected technological advances and growing socio-cultural demands made by a new public force. Some aspects I encountered were elimination of ornaments and a shift in emphasis from form to function. My project is a result of my fascination with these changing attitudes and a commentary on how people compromise with space and life in the city.
+
+                            <hr />
+                        </p>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                </div>
+            </div>
+
+            <!-- FOOTER START -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <p style="width:100%;font-size:0.8em;" class="text-center font-weight-light">Copyright © 2018 Artree Nepal. All Rights Reserved.</p>
+            </nav>
+            <!-- FOOTER END -->
+        </div>
+    </body>
+</html>
